@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Bust</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/f056a62cc9.js" crossorigin="anonymous"></script>
-    
 </head>
 <body>
     <header >
-        <nav class="flex justify-between items-center bg-red-400 p-3 my-6 mx-12 md:rounded-full" >
+        <nav class="flex justify-between items-center bg-red-400 p-3 my-6 mx-12 rounded-full" >
             <div>
                 <ul class="flex gap-6 pl-2  text-white">
                     <li>Home</li>
@@ -31,13 +30,87 @@
              
             
         </nav>
+       
 
     </header>
     <main>
+        <!-- banner section  -->
+
+       <section>
+        <div class="carousel w-fit ">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="/images/banner1.png" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❮</a> 
+              <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-fit">
+            <img src="/images/banner2.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❮</a> 
+              <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-fit">
+            <img src="/images/banner3.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❮</a> 
+              <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-fit">
+            <img  src="/images/banner4.png" class="w-full " />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❮</a> 
+              <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❯</a>
+            </div>
+         
+        </div>
+        </div>
+       </section>
+
+       <!-- deal of the day -->
+
+       <!-- <section>
+           <div>
+            <div>
+              <div>
+                <h1 class="text-5xl">Deal of the day</h1>
+                <p class="text-sm">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+              <div>
+                  <time></time>
+              </div>
+            </div>
+            <div>
+
+            </div>
+           </div>
+       </section> -->
 
     </main>
-    <footer>
-
+    <footer class="bg-black p-5 text-white mt-10">
+      <div class="flex justify-center items-center gap-2">
+        <img class="h-12" src="images/logo.png" alt="">
+        <h1 class="text-3xl">Fruit Burst</h1>
+      </div>
+      <div>
+        <ul class="flex justify-center gap-12 p-5">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Shop</li>
+          <li>All Fruits</li>
+          <li>Support</li>
+          <li>My Account</li>
+        </ul>
+      </div>
+      <div class="flex justify-center gap-16 p-2">
+        <i class="fa-brands fa-instagram "></i>
+        <i class="fa-brands fa-apple"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+        
     </footer>
     
 </body>
