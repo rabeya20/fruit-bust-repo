@@ -39,9 +39,12 @@ border-radius: 5px;
   width: 70%;
   margin: auto;
   position: relative;
-  top: -80px;
+  top: -250px;
   padding: 20px;
+  margin-bottom: 0;
 }
+
+
     </style>
   </head>
 
@@ -60,8 +63,9 @@ border-radius: 5px;
                 <img class="h-12" src="images/logo.png" alt="">
                <h1 class="text-3xl text-white"> Fruit Burst</h1>
              </div> 
-             <div>
+             <div class="relative">
                 <input class="mr-4 rounded-full w-60 h-8 border-0 bg-white" type="search" placeholder="  Search here " >
+                <i class="fa-solid fa-magnifying-glass relative right-12 "></i>
              </div> 
         
              
@@ -73,10 +77,10 @@ border-radius: 5px;
     <main>
         <!-- banner section  -->
 
-       <section>
+       <section class="mb-0 pb-0">
         <div class="carousel w-fit ">
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="/images/banner1.png" />
+            <img  src="/images/banner1.png" class="w-full"/>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❮</a> 
               <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❯</a>
@@ -105,6 +109,12 @@ border-radius: 5px;
             </div>
          
         </div>
+        </div>
+
+        <div class="text-white relative bottom-96 text-center w-1/2 m-auto mb-0">
+          <h1 class="text-5xl">Exotic tastes at your <br> doorstep</h1>
+        <p class="text-sm py-2">We supply highly quality organic products</p>
+        <button class="bg-red-400  py-2 px-3 rounded-lg">Shop Now</button>
         </div>
        </section>
        <section class="bonus">
@@ -137,7 +147,7 @@ border-radius: 5px;
 
        <!-- deal of the day -->
 
-       <section>
+       <section class="mt-0 pt-0">
            <div>
             <div class="flex justify-around items-center p-10 ">
               <div>
@@ -181,7 +191,9 @@ border-radius: 5px;
               <i class="fa-solid fa-star text-red-300"></i>
             </div>
             
-            <a class="text-red-500">Details</a>
+            
+            <button><a src="images/Fruit Burst Website Landing Page Design.png" class="text-red-500">Details</a></button>
+            
            </div>
            <div class="card">
             <img class="h-48 w-36 ml-5 p-3" src="images/fruit7.png" alt="">
@@ -195,7 +207,7 @@ border-radius: 5px;
               <i class="fa-solid fa-star text-red-300"></i>
               <i class="fa-solid fa-star text-red-300"></i>
             </div>
-            <a class="text-red-500">Details</a>
+            <button><a class="text-red-500">Details</a></button>
            </div>
            <div class="card">
             <img class="h-48 w-36 ml-5 p-3" src="images/fruit8.png" alt="">
@@ -209,7 +221,7 @@ border-radius: 5px;
               <i class="fa-solid fa-star text-red-300"></i>
               <i class="fa-solid fa-star text-red-300"></i>
             </div>
-            <a class="text-red-500">Details</a>
+            <button><a class="text-red-500">Details</a></button>
            </div>
            <div class="card">
             <img class="h-48 w-36 ml-5 p-3" src="images/fruit9.png" alt="">
@@ -223,7 +235,7 @@ border-radius: 5px;
               <i class="fa-solid fa-star text-red-300"></i>
               <i class="fa-solid fa-star text-red-300"></i>
             </div>
-            <a class="text-red-500">Details</a>
+            <button><a class="text-red-500">Details</a></button>
            </div>
            </div>
            <div class="flex justify-center pt-8">
